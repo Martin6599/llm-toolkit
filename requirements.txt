@@ -1,0 +1,10 @@
+pydantic>=2.0
+pyyaml
+httpx
+numpy
+pandas
+requests
+# 结构化输出演示脚本（1.py）可选依赖：
+# openai
+# python-dotenv
+# email-validator

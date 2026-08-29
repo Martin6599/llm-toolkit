@@ -1,0 +1,19 @@
+# 复制本文件为 config.yaml 后填写你的配置（config.yaml 已被 .gitignore 排除，不会提交）
+default_provider: local
+
+providers:
+  local:
+    base_url: http://localhost:11434/v1
+    api_key: EMPTY
+    model: qwen3.5:4b
+    temperature: 0.7
+    max_tokens: 2048
+    timeout: 120
+
+  deepseek:
+    base_url: https://api.deepseek.com/v1
+    api_key: ${DEEPSEEK_API_KEY}
+    model: deepseek-chat
+    temperature: 0.7
+    max_tokens: 2048
+    timeout: 60

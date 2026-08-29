@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# PyCharm
+.idea/
+
+# 密钥与本地配置（含真实 api_key，绝不能提交到 GitHub）
+config.yaml
+.env
+
+# 生成产物（demo.py 运行后产生）
+out/
+qa_clean.jsonl
